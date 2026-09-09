@@ -102,6 +102,10 @@ Phase 14 · 12 covers error recovery and self-healing in depth; Phase 17 covers 
 
 Every remaining lesson is an elaboration of this four-step loop. Hold it in mind as the invariant.
 
+```figure
+tp-tool-loop
+```
+
 ## Use It
 
 `code/main.py` runs the four-step loop without an LLM. A fake "decider" function simulates the model by pattern-matching on the user message; the executor, schema validator, and observe-step harness are real. Run it to see the full request/response choreography with printable intermediate state, then replace the fake decider with any real provider in a later lesson.
@@ -148,5 +152,5 @@ This lesson produces `outputs/skill-tool-interface-reviewer.md`. Given a draft t
 - [OpenAI — Function calling guide](https://platform.openai.com/docs/guides/function-calling) — canonical reference for OpenAI-style tool declarations and call shapes
 - [Anthropic — Tool use overview](https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview) — Claude's `tool_use` / `tool_result` block format
 - [Google — Gemini function calling](https://ai.google.dev/gemini-api/docs/function-calling) — `functionDeclarations` and parallel-call semantics in Gemini
-- [Model Context Protocol — Specification 2025-11-25](https://modelcontextprotocol.io/specification/2025-11-25) — the provider-agnostic generalization of the tool interface
+- [Model Context Protocol — Specification 2026-07-28](https://modelcontextprotocol.io/specification/2026-07-28) — the current stateless, provider-agnostic generalization of the tool interface
 - [JSON Schema — 2020-12 release notes](https://json-schema.org/draft/2020-12/release-notes) — the schema dialect every modern tool API speaks

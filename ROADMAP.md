@@ -4,7 +4,7 @@ Status tracker for every phase and lesson. The status glyphs in this file feed
 the website (`site/build.js` parses them into `site/data.js`); do not change
 their shape.
 
-Total estimated time: ~314 hours, at your own pace.
+Total estimated time: ~323 hours, at your own pace.
 
 **Legend:** ✅ Complete &nbsp;·&nbsp; 🚧 In Progress &nbsp;·&nbsp; ⬚ Planned
 
@@ -319,7 +319,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 24 | [Multimodal RAG and Cross-Modal Retrieval](phases/12-multimodal-ai/24-multimodal-rag-cross-modal) | ✅ | ~180 min |
 | 25 | [Multimodal Agents and Computer-Use (Capstone)](phases/12-multimodal-ai/25-multimodal-agents-computer-use) | ✅ | ~240 min |
 
-## Phase 13: Tools & Protocols — ✅ (~24.5 hours)
+## Phase 13: Tools & Protocols — ✅ (~43 hours)
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -328,26 +328,34 @@ Total estimated time: ~314 hours, at your own pace.
 | 03 | [Parallel and Streaming Tool Calls](phases/13-tools-and-protocols/03-parallel-and-streaming-tool-calls/) | ✅ | ~75 min |
 | 04 | [Structured Output](phases/13-tools-and-protocols/04-structured-output/) | ✅ | ~75 min |
 | 05 | [Tool Schema Design](phases/13-tools-and-protocols/05-tool-schema-design/) | ✅ | ~45 min |
-| 06 | [MCP Fundamentals](phases/13-tools-and-protocols/06-mcp-fundamentals/) | ✅ | ~45 min |
-| 07 | [Building an MCP Server](phases/13-tools-and-protocols/07-building-an-mcp-server/) | ✅ | ~75 min |
-| 08 | [Building an MCP Client](phases/13-tools-and-protocols/08-building-an-mcp-client/) | ✅ | ~75 min |
-| 09 | [MCP Transports](phases/13-tools-and-protocols/09-mcp-transports/) | ✅ | ~45 min |
-| 10 | [MCP Resources and Prompts](phases/13-tools-and-protocols/10-mcp-resources-and-prompts/) | ✅ | ~45 min |
-| 11 | [MCP Sampling](phases/13-tools-and-protocols/11-mcp-sampling/) | ✅ | ~75 min |
-| 12 | [MCP Roots and Elicitation](phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/) | ✅ | ~45 min |
-| 13 | [MCP Async Tasks](phases/13-tools-and-protocols/13-mcp-async-tasks/) | ✅ | ~75 min |
-| 14 | [MCP Apps](phases/13-tools-and-protocols/14-mcp-apps/) | ✅ | ~75 min |
-| 15 | [MCP Security I — Tool Poisoning](phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/) | ✅ | ~45 min |
-| 16 | [MCP Security II — OAuth 2.1](phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/) | ✅ | ~75 min |
-| 17 | [MCP Gateways and Registries](phases/13-tools-and-protocols/17-mcp-gateways-and-registries/) | ✅ | ~45 min |
-| 18 | [MCP Auth in Production — Enrollment, JWKS Refresh, Audience Pinning](phases/13-tools-and-protocols/18-mcp-auth-production/) | ✅ | ~90 min |
+| 06 | [MCP Fundamentals: Stateless Requests and JSON-RPC](phases/13-tools-and-protocols/06-mcp-fundamentals/) | ✅ | ~55 min |
+| 07 | [Building an MCP Server: Stateless Python and TypeScript](phases/13-tools-and-protocols/07-building-an-mcp-server/) | ✅ | ~85 min |
+| 08 | [Building an MCP Client: Discovery, Routing, and Dual-Era Fallback](phases/13-tools-and-protocols/08-building-an-mcp-client/) | ✅ | ~85 min |
+| 09 | [MCP Transports: stdio and Stateless Streamable HTTP](phases/13-tools-and-protocols/09-mcp-transports/) | ✅ | ~65 min |
+| 10 | [MCP Resources and Prompts: Addressable Context for Stateless Servers](phases/13-tools-and-protocols/10-mcp-resources-and-prompts/) | ✅ | ~60 min |
+| 11 | [MCP Model Input: Sampling Migration and Stateless MRTR](phases/13-tools-and-protocols/11-mcp-sampling/) | ✅ | ~75 min |
+| 12 | [Explicit Scope and Stateless Elicitation](phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/) | ✅ | ~60 min |
+| 13 | [MCP Tasks Extension: Durable Work on a Stateless Core](phases/13-tools-and-protocols/13-mcp-async-tasks/) | ✅ | ~90 min |
+| 14 | [MCP Apps on the Stateless Protocol](phases/13-tools-and-protocols/14-mcp-apps/) | ✅ | ~75 min |
+| 15 | [MCP Security: Poisoned Metadata, Routing, and MRTR State](phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/) | ✅ | ~60 min |
+| 16 | [MCP Authorization: CIMD, Issuer Binding, PKCE, and Step-Up](phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/) | ✅ | ~90 min |
+| 17 | [Stateless MCP Gateways and Registry Admission](phases/13-tools-and-protocols/17-mcp-gateways-and-registries/) | ✅ | ~75 min |
+| 18 | [MCP Auth in Production: Issuer-Bound Enrollment and Tokens](phases/13-tools-and-protocols/18-mcp-auth-production/) | ✅ | ~90 min |
 | 19 | [A2A Protocol](phases/13-tools-and-protocols/19-a2a-protocol/) | ✅ | ~75 min |
 | 20 | [OpenTelemetry GenAI](phases/13-tools-and-protocols/20-opentelemetry-genai/) | ✅ | ~75 min |
 | 21 | [LLM Routing Layer](phases/13-tools-and-protocols/21-llm-routing-layer/) | ✅ | ~45 min |
-| 22 | [Skills and Agent SDKs](phases/13-tools-and-protocols/22-skills-and-agent-sdks/) | ✅ | ~45 min |
-| 23 | [Capstone — Tool Ecosystem](phases/13-tools-and-protocols/23-capstone-tool-ecosystem/) | ✅ | ~120 min |
+| 22 | [Agent Skills: Portable Contract and Runtime Boundary](phases/13-tools-and-protocols/22-skills-and-agent-sdks/) | ✅ | ~90 min |
+| 23 | [Capstone: Stateless Tool Ecosystem](phases/13-tools-and-protocols/23-capstone-tool-ecosystem/) | ✅ | ~120 min |
+| 24 | [Skill Discovery and Progressive Disclosure](phases/13-tools-and-protocols/24-skill-discovery-and-progressive-disclosure/) | ✅ | ~105 min |
+| 25 | [Skill Invocation and Routing](phases/13-tools-and-protocols/25-skill-invocation-and-routing/) | ✅ | ~105 min |
+| 26 | [Skill Permissions, Sandboxes, and Trust](phases/13-tools-and-protocols/26-skill-permissions-sandboxes-and-trust/) | ✅ | ~120 min |
+| 27 | [Skill Evals, Packaging, and Portability](phases/13-tools-and-protocols/27-skill-evals-packaging-and-portability/) | ✅ | ~150 min |
+| 28 | [MCP Tool Contracts and Content](phases/13-tools-and-protocols/28-mcp-tool-contracts-and-content/) | ✅ | ~120 min |
+| 29 | [MCP Reliability, Cancellation, and Flow Control](phases/13-tools-and-protocols/29-mcp-reliability-cancellation-and-flow-control/) | ✅ | ~120 min |
+| 30 | [MCP Registry Supply Chain: Admission, Drift, and Rollback](phases/13-tools-and-protocols/30-mcp-registry-supply-chain-and-drift/) | ✅ | ~90 min |
+| 31 | [MCP Conformance Engineering: Versioning, Evidence, and Operations](phases/13-tools-and-protocols/31-mcp-conformance-versioning-and-operations/) | ✅ | ~100 min |
 
-## Phase 14: Agent Engineering — ✅ (~42 hours)
+## Phase 14: Agent Engineering — ✅ (~55 hours)
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -357,18 +365,18 @@ Total estimated time: ~314 hours, at your own pace.
 | 04 | Tree of Thoughts and LATS | ✅ | ~75 min |
 | 05 | Self-Refine and CRITIC | ✅ | ~60 min |
 | 06 | Tool Use and Function Calling | ✅ | ~60 min |
-| 07 | Memory — Virtual Context and MemGPT | ✅ | ~75 min |
-| 08 | Memory Blocks and Sleep-Time Compute (Letta) | ✅ | ~75 min |
-| 09 | Hybrid Memory — Vector + Graph + KV (Mem0) | ✅ | ~75 min |
+| 07 | Agent Memory — Virtual Context and Memory Paging | ✅ | ~75 min |
+| 08 | Memory Blocks and Sleep-Time Compute | ✅ | ~75 min |
+| 09 | Hybrid Memory — Vector + Graph + KV | ✅ | ~75 min |
 | 10 | Skill Libraries and Lifelong Learning (Voyager) | ✅ | ~75 min |
 | 11 | Planning with HTN and Evolutionary Search | ✅ | ~75 min |
 | 12 | Anthropic's Workflow Patterns | ✅ | ~60 min |
-| 13 | LangGraph — Stateful Graphs and Durable Execution | ✅ | ~75 min |
-| 14 | AutoGen v0.4 — Actor Model | ✅ | ~75 min |
-| 15 | CrewAI — Role-Based Crews and Flows | ✅ | ~60 min |
+| 13 | Stateful Graph Orchestration — Durable Execution and Checkpoints | ✅ | ~75 min |
+| 14 | The Actor Model for Agents | ✅ | ~75 min |
+| 15 | Role-Based Agent Teams — Roles, Tasks, Processes | ✅ | ~60 min |
 | 16 | OpenAI Agents SDK — Handoffs, Guardrails, Tracing | ✅ | ~75 min |
-| 17 | Claude Agent SDK — Subagents and Session Store | ✅ | ~75 min |
-| 18 | Agno and Mastra — Production Runtimes | ✅ | ~45 min |
+| 17 | The Harness as a Library — Subagents and Session Store | ✅ | ~75 min |
+| 18 | Production Agent Runtimes | ✅ | ~45 min |
 | 19 | Benchmarks — SWE-bench, GAIA, AgentBench | ✅ | ~60 min |
 | 20 | Benchmarks — WebArena and OSWorld | ✅ | ~60 min |
 | 21 | Computer Use — Claude, OpenAI CUA, Gemini | ✅ | ~60 min |
@@ -393,6 +401,18 @@ Total estimated time: ~314 hours, at your own pace.
 | 40 | Multi-Session Handoff | ✅ | ~50 min |
 | 41 | The Workbench on a Real Repo | ✅ | ~60 min |
 | 42 | Capstone: Ship a Reusable Agent Workbench Pack | ✅ | ~75 min |
+| 43 | Frame the Task Before the Agent Writes Code | ✅ | ~60 min |
+| 44 | Build an Evidence-Backed Execution Plan | ✅ | ~65 min |
+| 45 | Delegate Agent Work with Isolation and Merge Contracts | ✅ | ~70 min |
+| 46 | Turn Every Agent Correction into a System Improvement | ✅ | ~65 min |
+| 47 | Define the Outcome Before You Choose the Output | ✅ | ~60 min |
+| 48 | Discover the Workflow People Actually Perform | ✅ | ~70 min |
+| 49 | Map Assumptions and Resolve the Riskiest One First | ✅ | ~65 min |
+| 50 | Choose the Smallest Slice That Can Change the Decision | ✅ | ~65 min |
+| 51 | Write Specifications That Preserve Judgment | ✅ | ~75 min |
+| 52 | Design Success Metrics Before the Result Exists | ✅ | ~70 min |
+| 53 | Choose Prototype, Pilot, or Production Deliberately | ✅ | ~70 min |
+| 54 | Build a Feedback Ratchet with Ownership and Retirement | ✅ | ~75 min |
 
 ## Phase 15: Autonomous Systems — ✅ (~20 hours)
 
@@ -407,7 +427,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 07 | Recursive Self-Improvement — Capability vs Alignment | ✅ | ~60 min |
 | 08 | Bounded Self-Improvement Designs | ✅ | ~60 min |
 | 09 | Autonomous Coding Agent Landscape (SWE-bench, CodeAct) | ✅ | ~45 min |
-| 10 | Claude Code Permission Modes and Auto Mode | ✅ | ~45 min |
+| 10 | Permission Modes for Autonomous Agents | ✅ | ~45 min |
 | 11 | Browser Agents and Indirect Prompt Injection | ✅ | ~45 min |
 | 12 | Durable Execution for Long-Running Agents | ✅ | ~60 min |
 | 13 | Action Budgets, Iteration Caps, Cost Governors | ✅ | ~60 min |
@@ -458,10 +478,10 @@ Total estimated time: ~314 hours, at your own pace.
 | 01 | Managed LLM Platforms — Bedrock, Azure OpenAI, Vertex AI | ✅ | ~60 min |
 | 02 | Inference Platform Economics — Fireworks, Together, Baseten, Modal | ✅ | ~60 min |
 | 03 | GPU Autoscaling on Kubernetes — Karpenter, KAI Scheduler | ✅ | ~75 min |
-| 04 | vLLM Serving Internals — PagedAttention, Continuous Batching, Chunked Prefill | ✅ | ~75 min |
+| 04 | Serving Engine Internals — PagedAttention, Continuous Batching, Chunked Prefill | ✅ | ~75 min |
 | 05 | EAGLE-3 Speculative Decoding in Production | ✅ | ~60 min |
-| 06 | SGLang and RadixAttention for Prefix-Heavy Workloads | ✅ | ~60 min |
-| 07 | TensorRT-LLM on Blackwell with FP8 and NVFP4 | ✅ | ~75 min |
+| 06 | Prefix-Cache Serving — RadixAttention and KV Reuse | ✅ | ~60 min |
+| 07 | Hardware-Specialized Inference Compilation — FP8 and NVFP4 on Blackwell | ✅ | ~75 min |
 | 08 | Inference Metrics — TTFT, TPOT, ITL, Goodput, P99 | ✅ | ~60 min |
 | 09 | Production Quantization — AWQ, GPTQ, GGUF, FP8, NVFP4 | ✅ | ~75 min |
 | 10 | Cold Start Mitigation for Serverless LLMs | ✅ | ~60 min |
@@ -472,7 +492,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 15 | Batch APIs — the 50% Discount as Industry Standard | ✅ | ~45 min |
 | 16 | Model Routing as a Cost-Reduction Primitive | ✅ | ~60 min |
 | 17 | Disaggregated Prefill/Decode — NVIDIA Dynamo and llm-d | ✅ | ~75 min |
-| 18 | vLLM Production Stack with LMCache KV Offloading | ✅ | ~60 min |
+| 18 | Production Serving Stack — KV Offloading and Cache-Aware Routing | ✅ | ~60 min |
 | 19 | AI Gateways — LiteLLM, Portkey, Kong, Bifrost | ✅ | ~60 min |
 | 20 | Shadow, Canary, and Progressive Deployment | ✅ | ~60 min |
 | 21 | A/B Testing LLM Features — GrowthBook and Statsig | ✅ | ~60 min |
@@ -482,7 +502,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 25 | Security — Secrets, PII Scrubbing, Audit Logs | ✅ | ~60 min |
 | 26 | Compliance — SOC 2, HIPAA, GDPR, EU AI Act, ISO 42001 | ✅ | ~60 min |
 | 27 | FinOps for LLMs — Unit Economics and Multi-Tenant Attribution | ✅ | ~60 min |
-| 28 | Self-Hosted Serving Selection — llama.cpp, Ollama, TGI, vLLM, SGLang | ✅ | ~45 min |
+| 28 | Self-Hosted Serving Selection — Matching Engine to Hardware and Scale | ✅ | ~45 min |
 
 ## Phase 18: Ethics, Safety & Alignment — ✅ (~31 hours)
 
@@ -535,7 +555,7 @@ Total estimated time: ~314 hours, at your own pace.
 | 10 | [Multi-Agent Software Engineering Team](phases/19-capstone-projects/10-multi-agent-software-team) | ✅ | ~40 hr |
 | 11 | [LLM Observability & Eval Dashboard](phases/19-capstone-projects/11-llm-observability-dashboard) | ✅ | ~25 hr |
 | 12 | [Video Understanding Pipeline (Scene to QA)](phases/19-capstone-projects/12-video-understanding-pipeline) | ✅ | ~30 hr |
-| 13 | [MCP Server with Registry and Governance](phases/19-capstone-projects/13-mcp-server-with-registry) | ✅ | ~25 hr |
+| 13 | [Stateless MCP Server with Registry and Governance](phases/19-capstone-projects/13-mcp-server-with-registry) | ✅ | ~25 hr |
 | 14 | [Speculative-Decoding Inference Server](phases/19-capstone-projects/14-speculative-decoding-server) | ✅ | ~30 hr |
 | 15 | [Constitutional Safety Harness + Red-Team Range](phases/19-capstone-projects/15-constitutional-safety-harness) | ✅ | ~25 hr |
 | 16 | [GitHub Issue-to-PR Autonomous Agent](phases/19-capstone-projects/16-github-issue-to-pr-agent) | ✅ | ~30 hr |
@@ -611,6 +631,6 @@ Total estimated time: ~314 hours, at your own pace.
 
 ---
 
-**Total: 20 phases, 503 lessons | 503 complete | ~1,050 hours estimated**
+**Total: 20 phases, 523 lessons | 523 complete | ~1,079 hours estimated**
 
 Want to help? Pick any ⬚ lesson and submit a PR. See [CONTRIBUTING.md](CONTRIBUTING.md).
